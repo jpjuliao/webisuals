@@ -32,6 +32,7 @@ div.fx1 {
 .a.fx1 {
   top: 0%; left: 0%; right: 0%; bottom: 0%;
   transform: scale(1.3);
+  -webkit-animation: rotation 1s infinite linear;
 }
 .a.fx1 video {
   filter: invert(1);
@@ -44,6 +45,7 @@ div.fx1 {
 .b.fx1 {
   top: 10%; left: 15%; right: 50%; bottom: 20%;
   transform: scale(.8);
+  -webkit-animation: rotation 5s infinite linear;
 }
 .c {
   color: #fff;
@@ -53,6 +55,7 @@ div.fx1 {
 .c.fx1 {
   top: 5%; left: 10%; right: 20%; bottom: 60%;
   transform: scale(.5);
+  -webkit-animation: rotation 8s infinite linear;
 }
 .d {
   color: #fff;
@@ -62,6 +65,7 @@ div.fx1 {
 .d.fx1 {
   top: 45%; left: 41%; right: 2%; bottom: 46%;
   transform: scale(.6);
+  -webkit-animation: rotation 3s infinite linear;
 }
 
 @-webkit-keyframes rotation {
